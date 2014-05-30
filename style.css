@@ -1,0 +1,78 @@
+/*
+Theme Name: VILLA DEL CINE 2014
+Author: MippCI -Coordinación Web
+Author URI: http://www.villadelcine.gob.ve
+Version: 1.0
+Description: Tema Wordpress para el sitio web de la Fundación Villa del Cine
+License: GNU General Public License
+*/
+
+
+
+
+
+/* TIPOGRAFIAS INCLUIDAS DESDE EL DIRECTORIO LOCAL
+ */
+
+/*@font-face {
+	font-family: 'os-condbold';
+	src: url(static/fonts/OpenSans-CondBold.ttf);
+}
+
+@font-face {
+	font-family: 'os-condlight';
+	src: url(static/fonts/OpenSans-CondLight.ttf);
+}
+
+@font-face {
+	font-family: 'os-condlightitalic';
+	src: url(static/fonts/OpenSans-CondLightItalic.ttf);
+}
+
+@font-face {
+	font-family: 'oswald-bold';
+	src: url(static/fonts/Oswald-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'oswald-light';
+	src: url(static/fonts/Oswald-Light.ttf);
+}
+
+@font-face {
+	font-family: 'oswald-regular';
+	src: url(static/fonts/Oswald-Regular.ttf);
+}*/
+
+
+
+
+
+/* TIPOGRAFIAS INCLUIDAS DESDE GOOGLE FONTS
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700|Open+Sans+Condensed:700,300);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'oswald-bold';
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
