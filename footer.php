@@ -9,6 +9,7 @@
 					<figure class="medio"><a href="#"><img src="<?php print get_template_directory_uri() ?>/static/images/festivallatcar.png" alt="telesur"></a></figure>
 					<figure class="medio"><a href="#"><img src="<?php print get_template_directory_uri() ?>/static/images/ahorrarenergia.png" alt="rnv"></a></figure>
 					<figure class="medio"><a href="#"><img src="<?php print get_template_directory_uri() ?>/static/images/festivallatcar.png" alt="anv"></a></figure>
+					<figure class="medio"><a href="#"><img src="<?php print get_template_directory_uri() ?>/static/images/ahorrarenergia.png" alt="tves"></a></figure>
 				</div>
 			</div>
 			

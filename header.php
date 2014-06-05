@@ -31,7 +31,14 @@
 					<div class="top-menu"><?php wp_nav_menu(array('theme_location' => 'top')); ?></div>
 					<div class="social">
 						<ul class="social-menu">
-							<li><a href="#"><img src="<?php print get_template_directory_uri() ?>/static/images/icosearch.png" alt="Buscar"></a></li>
+							<li>
+								<a id="btnsearch" href="#"><img src="<?php print get_template_directory_uri() ?>/static/images/icosearch.png" alt="Buscar"></a>
+								<div id="fs" class="form-search">
+									<form method="get" id="searchform" action="<?php bloginfo('home'); ?>/">
+										<input type="text" size="30" value="<?php echo wp_specialchars($s, 1); ?>" name="s" id="s" placeholder="Busqueda..."/>
+									</form>
+								</div>
+							</li>
 							<li><a href="#"><img src="<?php print get_template_directory_uri() ?>/static/images/icotwitter.png" alt="Twitter"></a></li>
 							<li><a href="#"><img src="<?php print get_template_directory_uri() ?>/static/images/icofacebook.png" alt="Facebook"></a></li>
 							<li><a href="#"><img src="<?php print get_template_directory_uri() ?>/static/images/icoyoutube.png" alt="Youtube"></a></li>
